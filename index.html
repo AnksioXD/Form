@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h2 id="header">Server Introduction Form</h2>
+            <p id="header2">Please fill all the texts in the fields.</p>
+            <div class="socials">
+                <!-- <img id="image" src="imgs/discord.svg" width="17px"> -->
+                <a href="https://discord.gg/umvMcWZkyB">Discord</a>
+                <!-- <img id="image" src="imgs/youtube.svg" width="15px"> -->
+                <a href="https://www.youtube.com/@anksioxd">Youtube</a>
+                <!-- <img id="image" src="imgs/insta.svg" width="18px"> -->
+                <a href="https://www.instagram.com/anksio.o/">Instagram</a>
+            </div>
+        </div>
+        <form class="textfields">
+            <label for="name"> Your Name: </label>
+            <input id="name" type="text" placeholder="Type your name here">
+            <label for="discordid"> Your Discord ID & Tag: </label>
+            <input id="discordid" type="text" placeholder="Example: Anksio#6448">
+            <label for="gender">Your Gender:</label>
+            <div class="genderfield"> 
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <input type="radio" id="suar" name="gender" value="suar">
+                <label for="other">Suar</label>
+            </div>
+
+            <label for="intro"> Your Introduction: </label>
+            <textarea id="intro" placeholder="Introduce yourself ..."></textarea>
+            <p id="hobby"> Pick a hobby </p>
+            <select id="dropdown">
+                <option value="Professional Procrastinator"> Pro Procrastinator </option>
+                <option value="Extreme Sleeper">Extreme Sleeper</option>
+                <option value="Competitive Binge-watcher">Competitive Binge-watcher</option>
+                <option value="Bubble Wrap Enthusiast">Bubble Wrap Enthusiast</option>
+                <option value="Self Proclaimed Dank Memer">Self Proclaimed Dank Memer</option>
+                <option value="No Lifer">No Lifer</option>
+            </select>
+            <input id="send" type="reset" value="Send!">
+            <section id="copyright">
+                <p>COPYRIGHT &copy ANKSIO</p>
+            </section>
+        </form>
+    </div>
+</body>
+
+</html>
