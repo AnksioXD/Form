@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Source+Sans+Pro&display=swap');
+
+:root {
+    --main: #25221c;
+    --header: #483D27;
+    --text: #BFB393;
+}
+
+::selection {
+    color: #ffdd00;
+    background-color: #0a0704;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #3e3936;
+    border-radius: 50px;
+}
+
+a {
+    color:   #A88E66 ;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+}
+
+body {
+    background-color: var(--main);
+}
+
+.navbar {
+    background-color: var(--header);
+    padding: 8px;
+    margin-bottom: 30px;
+}
+#header {
+    display: flex;
+    color: var(--text);
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-size: 25px;
+}
+#header2 {
+    display: flex;
+    color: var(--text);
+    margin: 20px;
+    justify-content: center;
+    font-family: 'Noto Sans';
+}
+
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+
+input[type="text"] {
+    background-color: #483D27;
+    color: #FFFFE0;
+}
+
+  
+
+#male {
+    color: #000;
+}
+
+.genderfield {
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: var(--header);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+textarea {
+    color: #FFFFE0;
+    scroll-behavior: smooth;
+}
+
+.textfields {
+    display: grid;
+    text-align: start;
+    justify-content: center;
+    color: var(--text);
+    gap: 10px;
+    font-family: Noto Sans, Arial;
+    font-size: 20px;
+    border: none;
+}
+
+#name, #discordid, #intro {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: solid var(--header);
+    border-radius: 5px;
+    background-color: var(--header);
+}
+
+textarea {
+    background-color: #dad0bb;
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: none;
+    box-sizing: border-box;
+    resize: none;
+  }
+  
+#hobby {
+    margin: 35px 0px 0px 0px;
+}
+
+#dropdown {
+    color: #ffffff;
+    background-color: var(--header);
+    margin-bottom: 100px;
+    padding: 5px;
+    border: solid var(--header);
+    border-radius: 5px;
+}
+
+#send {
+    color: var(--text);
+    background-color: var(--header);
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    justify-content: center;
+    width: 80px;
+    border: solid var(--header);
+    border-radius: 50px;
+}
+
+#copyright {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    font-family: Arial;
+    letter-spacing: 3px;
+    opacity: 10%;
+}

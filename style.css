@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Effra';
+    src: url('fonts/Effra.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'MrEavesReg';
+    src: url('fonts/MrEavesReg.ttf') format('opentype');
+}
+
+:root {
+    --main: #25221c;
+    --header: #483D27;
+    --text: #BFB393;
+}
+
+
+body {
+    background-color: var(--main);
+}
+
+::selection {
+    color: #ffdd00;
+    background-color: #0a0704;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+}
+
+.headstuff {
+    background-color: var(--header);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 48px;
+}
+
+#audio-btn {
+    color: #fff4ae;
+    cursor: pointer;
+    font-size: 11px;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 90%;
+    margin-right: 10px;
+    border: solid #342424;
+    border-width: 3px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px  #3d3321;
+    background: #553b24;
+    font-family: 'Open Sans';
+}
+
+#playbtn {
+    max-width: 90%;
+    height: auto;
+    width: 49px;
+}
+
+
+
+#header {
+    color: var(--text);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: Effra;
+}
+
+#errorMsg {
+    color: var(--text);
+    display: flex;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 19px;
+    white-space: pre-line;
+    justify-content: center;
+}
+
+#catImage {
+    border: 5px solid var(--text);
+    border-radius: 10px;
+    max-width: 90%;
+    height: auto;
+    width: 450px;
+}
+
+#btn {
+    font-family: 'Open Sans';
+    font-weight: 450;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 200px;
+    color: #fff4ae;
+    background-color: #553b24;
+    text-decoration: none;
+    margin: 50px auto;
+    border: solid var(--main);
+    /* border-width: 4px; */
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px  #21180d;
+}
+
+#copyright {
+    margin-top: 80px;
+    font-family: MrEavesReg;
+    color: #E5E5CB;
+    font-size: 10px;
+    letter-spacing: 3px;
+    opacity: 20%;
+}
